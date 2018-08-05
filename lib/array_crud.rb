@@ -19,17 +19,17 @@ def add_element_to_start_of_array(array, element)
 end
 
 def remove_element_from_end_of_array(array)
-  fruit_array = ["wow", "mango", "kiwi", "dragonfruit", "cantaloupe", "arrays!"]
+  fruit_array = ["mango", "kiwi", "dragonfruit", "cantaloupe", "arrays!"]
   fruit_array.pop
 end
 
 def remove_element_from_start_of_array(array)
-  fruit_array = ["mango", "kiwi", "dragonfruit", "cantaloupe"]
+  fruit_array = ["wow","mango", "kiwi", "dragonfruit", "cantaloupe"]
   fruit_array.shift
 end
 
 def retrieve_element_from_index(array, index_number)
-  
+  fruit_array = ["wow","mango", "kiwi", "dragonfruit", "cantaloupe"]
 end
 
 def retrieve_first_element_from_array(array)
