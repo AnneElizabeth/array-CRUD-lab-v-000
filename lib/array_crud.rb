@@ -9,13 +9,13 @@ end
 def add_element_to_end_of_array(array, element)
   array = ["wow", "I", "am", "really", "learning"]
   element = "arrays!"
-  fruit_array.push(element)
+  array.push(element)
 end
 
 def add_element_to_start_of_array(array, element)
-  fruit_array = ["mango", "kiwi", "dragonfruit", "cantaloupe"]
+  array = ["I", "am", "really", "learning"]
   element = "wow"
-  fruit_array.unshift(element)
+  array.unshift(element)
 end
 
 def remove_element_from_end_of_array(array)
