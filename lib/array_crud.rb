@@ -20,14 +20,12 @@ end
 
 def remove_element_from_end_of_array(array)
   fruit_array = ["mango", "kiwi", "dragonfruit", "cantaloupe"]
-  element = "arrays!"
-  fruit_array.pop(element)
+  fruit_array.pop
 end
 
 def remove_element_from_start_of_array(array)
   fruit_array = ["mango", "kiwi", "dragonfruit", "cantaloupe"]
-  element = "wow"
-  fruit_array.shift(element)
+  fruit_array.shift
 end
 
 def retrieve_element_from_index(array, index_number)
